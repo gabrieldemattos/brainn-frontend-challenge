@@ -7,3 +7,19 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+
+.animate-from-bottom {
+  animation: fromBottom 1s backwards;
+}
+
+@keyframes fromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
