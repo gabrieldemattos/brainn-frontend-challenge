@@ -97,10 +97,7 @@ export default function Home() {
           <NumberContainer>
             <div className="hidden lg:block"></div>
 
-            <div
-              data-drawn-length={raffle.drawn_numbers?.length}
-              className="flex gap-3 items-center flex-wrap justify-center px-12 lg:p-0 lg:gap-8"
-            >
+            <div className="flex gap-3 items-center flex-wrap justify-center px-12 lg:p-0 lg:gap-8">
               {raffle.drawn_numbers?.map((number, index) => (
                 <RaffleBall key={index} number={number} />
               ))}
