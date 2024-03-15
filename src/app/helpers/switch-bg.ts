@@ -1,6 +1,6 @@
 export const switchBg = (raffle: string) => {
   switch (raffle) {
-    case "megasena":
+    case "mega-sena":
       return "bg-[#6BEFA3]";
     case "quina":
       return "bg-[#8666EF]";
@@ -10,7 +10,7 @@ export const switchBg = (raffle: string) => {
       return "bg-[#FFAB64]";
     case "timemania":
       return "bg-[#5AAD7D]";
-    case "diadesorte":
+    case "dia de sorte":
       return "bg-[#BFAF83]";
     default:
       return "bg-[#6BEFA3]";
