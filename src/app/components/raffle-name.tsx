@@ -4,7 +4,7 @@ interface RaffleNameProps {
 
 const RaffleName = ({ raffleName }: RaffleNameProps) => {
   return (
-    <div className="flex flex-col items-center gap-3">
+    <div className="flex flex-col items-center gap-3 lg:flex-row lg:gap-5">
       <svg
         width="65"
         height="64"
